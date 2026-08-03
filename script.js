@@ -27,5 +27,9 @@ button.style.transform="scale(1)";
 });
 
 }
-
+<script>
+window.addEventListener("load", function(){
+    document.getElementById("loader").style.display = "none";
+});
+</script>
 });
